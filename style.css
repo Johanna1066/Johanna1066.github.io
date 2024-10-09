@@ -1,8 +1,94 @@
-body
-{  
-    background-color:cadetblue;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+body {
+  /*background-image: url("pictures/background2.png");*/
+  background-color: antiquewhite;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+/*Header*/
+
+header {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  background-color: antiquewhite;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  height: 7%;
+
+  padding-top: 3%;
+  padding-bottom: 0%;
+  padding-left: 0;
+  padding-right: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+header nav .mainNav {
+  color: rgb(46, 29, 3);
+  text-decoration: none;
+
+  padding: 0.5em;
+  padding-top: 0.7em;
+
+  width: fit-content;
+  text-align: center;
+}
+
+header nav .mainNav:hover {
+  color: rgb(185, 125, 34);
+}
+
+header nav nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header nav nav a {
+  padding: 30%;
+}
+
+.fa-brands {
+  color: rgba(46, 29, 3);
+}
+
+.fa-brands:hover {
+  color: rgb(185, 125, 34);
+}
+
+header hr {
+  width: 90%;
+  text-align: left;
+  margin-left: 5%;
+}
+
+/*Footer*/
+
+footer {
+  color: rgb(119, 75, 8);
+  text-align: right;
+  font-size: x-small;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  padding: 0%;
+  margin: 0%;
+  margin-right: 0.4%;
 }
