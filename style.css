@@ -61,7 +61,7 @@ header nav nav a {
 }
 
 .fa-brands {
-  color: rgba(46, 29, 3);
+  color: rgba(46, 29, 3, 0.7);
 }
 
 .fa-brands:hover {

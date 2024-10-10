@@ -1,0 +1,30 @@
+/*Main sections*/
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: top;
+  margin-top: 5%;
+  padding: auto;
+}
+
+article {
+  width: 50%;
+  margin: 2%;
+}
+
+article figcaption {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 2%;
+  width: fit-content;
+}
+
+.head {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 3em;
+  padding-top: 2%;
+  color: rgba(46, 29, 3, 0.5);
+}
