@@ -6,7 +6,7 @@
 
 body {
   /*background-image: url("pictures/background2.png");*/
-  background-color: antiquewhite;
+  background-color: var(--main-background-color);
   background-size: cover;
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -72,7 +72,7 @@ header nav nav a {
 }
 
 .fa-brands {
-  color: var(--main-text-color);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .fa-brands:hover {
@@ -89,7 +89,7 @@ header hr {
 /*Footer*/
 
 footer {
-  color: rgb(119, 75, 8);
+  color: var(--text-hover-color);
   text-align: right;
   font-size: x-small;
   width: 100%;
