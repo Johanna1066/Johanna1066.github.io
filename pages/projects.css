@@ -1,6 +1,6 @@
 /*Main sections*/
 
-section {
+.project-segment {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -9,19 +9,24 @@ section {
   padding: auto;
 }
 
-article {
+.project {
   width: 50%;
   margin: 2%;
 }
 
-article figcaption {
+.project figcaption {
   font-size: 1em;
   line-height: 1.5;
   margin: 2%;
   width: fit-content;
 }
 
-.head {
+.project img {
+  width: 300px;
+  height: 300px;
+}
+
+.project-head {
   writing-mode: vertical-lr;
   text-orientation: upright;
   font-size: 3em;

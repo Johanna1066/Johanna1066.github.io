@@ -1,6 +1,6 @@
 /*Main sections*/
 
-.pictures {
+.home-pictures {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -8,19 +8,24 @@
   margin-top: 7%;
 }
 
-.mainText {
+.home-pictures img {
+  width: 200px;
+  height: 200px;
+}
+
+.home-text {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.mainText h1 {
+.home-text h1 {
   font-size: 7em;
   padding-right: 5%;
 }
 
-.mainText aside {
+.home-text aside {
   font-size: 1.2em;
   padding-right: 5%;
 }

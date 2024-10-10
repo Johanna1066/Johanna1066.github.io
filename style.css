@@ -1,17 +1,26 @@
+:root {
+  --main-background-color: antiquewhite;
+  --main-text-color: rgba(46, 29, 3, 0.7);
+  --text-hover-color: rgb(185, 125, 34);
+}
+
 body {
   /*background-image: url("pictures/background2.png");*/
   background-color: antiquewhite;
   background-size: cover;
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /*Header*/
 
 header {
-  color: rgb(0, 0, 0);
+  color: var(--main-text-color);
   font-weight: 500;
-  background-color: antiquewhite;
+  background-color: var(--main-background-color);
   width: 100%;
   padding: 1em;
   text-align: center;
@@ -27,6 +36,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 10vh;
 }
 
 header nav {
@@ -36,7 +46,7 @@ header nav {
 }
 
 header nav .mainNav {
-  color: rgb(46, 29, 3);
+  color: var(--main-text-color);
   text-decoration: none;
 
   padding: 0.5em;
@@ -47,7 +57,7 @@ header nav .mainNav {
 }
 
 header nav .mainNav:hover {
-  color: rgb(185, 125, 34);
+  color: var(--text-hover-color);
 }
 
 header nav nav {
@@ -56,22 +66,24 @@ header nav nav {
   justify-content: center;
   align-items: center;
 }
+
 header nav nav a {
   padding: 30%;
 }
 
 .fa-brands {
-  color: rgba(46, 29, 3, 0.7);
+  color: var(--main-text-color);
 }
 
 .fa-brands:hover {
-  color: rgb(185, 125, 34);
+  color: var(--text-hover-color);
 }
 
 header hr {
   width: 90%;
-  text-align: left;
   margin-left: 5%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 
 /*Footer*/
@@ -83,8 +95,7 @@ footer {
   width: 100%;
   padding: 0%;
   margin: 0%;
-  position: fixed;
-  bottom: 0;
+  margin-top: auto;
 }
 
 footer p {
