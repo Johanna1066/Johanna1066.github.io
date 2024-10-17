@@ -5,7 +5,6 @@
   }
 
 body {
-  /*background-image: url("pictures/background2.png");*/
   background-color: var(--main-background-color);
   background-size: cover;
   font-family: "Montserrat", sans-serif;
@@ -24,7 +23,7 @@ header {
   color: var(--main-text-color);
   font-weight: 500;
   background-color: var(--main-background-color);
-  width: 100vw;
+  width: 99vw;
   text-align: center;
   position: fixed;
   height: 10vh;
@@ -66,14 +65,17 @@ header nav nav {
 
 header nav nav a {
   padding: 0.2vw;
+  width: min(2vw, 30px);
+  height: auto;
+  padding:0.5vw;
 }
 
-.fa-brands {
-  color: rgba(0, 0, 0, 0.5);
+header nav nav a img {
+  opacity: 0.5;
 }
 
-.fa-brands:hover {
-  color: var(--text-hover-color);
+header nav nav a img:hover {
+  opacity: 1;
 }
 
 header hr {
@@ -87,15 +89,13 @@ header hr {
 /*Footer*/
 
 footer {
-  color: var(--text-hover-color);
   text-align: right;
-  font-size: x-small;
+  font-size: min(1vw, 10px);
   width: 99vw;
   padding: 0%;
   margin: 0%;
   margin-top: auto;
   display: flex;
-  flex-direction:row;
-  justify-content:end
-
+  flex-direction: row;
+  justify-content:right
 }
