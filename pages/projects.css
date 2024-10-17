@@ -1,4 +1,4 @@
-/*Main sections*/
+/*Projects css*/
 
 .project-segment {
   display: flex;
@@ -7,6 +7,7 @@
   align-items: top;
   margin-top: 5%;
   padding: auto;
+  margin-top: 12vh;
 }
 
 .project {
@@ -14,22 +15,23 @@
   margin: 2%;
 }
 
+
 .project figcaption {
-  font-size: 1em;
+  font-size: min(1.5vw, 1em);
   line-height: 1.5;
   margin: 2%;
-  width: fit-content;
+  width: min(40vw, 600px);
 }
 
 .project img {
-  width: 300px;
-  height: 300px;
+  width: min(30vw, 300px);
+  height: auto;
 }
 
 .project-head {
   writing-mode: vertical-lr;
   text-orientation: upright;
-  font-size: 3em;
+  font-size: min(4vw, 40px);
   padding-top: 5vh;
   margin-top: 1%;
   color: rgba(46, 29, 3, 0.5);

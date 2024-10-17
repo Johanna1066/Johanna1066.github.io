@@ -1,16 +1,28 @@
-/*Main sections*/
+.home-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: top;
+  padding: auto;
+  width: fit-content;
+  margin-top: 12vh;
+}
 
 .home-pictures {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 7%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: min(2vw, 20px);
+
 }
 
+
 .home-pictures img {
-  width: 200px;
-  height: 200px;
+  width: min(20vw, 200px);
+  height: auto;
 }
 
 .home-text {
@@ -18,14 +30,17 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 2vh;
+
 }
 
 .home-text h1 {
-  font-size: 7em;
-  padding-right: 5%;
+  font-size: 7vw;
+  padding-right: 5vw;
 }
 
 .home-text aside {
-  font-size: 1.2em;
-  padding-right: 5%;
+  font-size: 1.2vw;
+  padding-right: 5vw;
 }
+

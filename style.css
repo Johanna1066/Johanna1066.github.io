@@ -2,7 +2,7 @@
   --main-background-color: antiquewhite;
   --main-text-color: rgba(46, 29, 3, 0.7);
   --text-hover-color: rgb(185, 125, 34);
-}
+  }
 
 body {
   /*background-image: url("pictures/background2.png");*/
@@ -10,9 +10,12 @@ body {
   background-size: cover;
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   min-height: 100vh;
+  max-width: 99vw;
 }
 
 /*Header*/
@@ -22,21 +25,14 @@ header {
   font-weight: 500;
   background-color: var(--main-background-color);
   width: 100vw;
-  padding: 1em;
   text-align: center;
   position: fixed;
-  top: 0;
-  height: 7%;
-
-  padding-top: 3%;
-  padding-bottom: 0%;
-  padding-left: 0;
-  padding-right: 0;
+  height: 10vh;
+  padding-top: min(2vw,20px);
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: 10vh;
+  justify-content: space-evenly;
 }
 
 header nav {
@@ -48,6 +44,7 @@ header nav {
 header nav .mainNav {
   color: var(--main-text-color);
   text-decoration: none;
+  font-size: min(2vw, 20px);
 
   padding: 0.5em;
   padding-top: 0.7em;
@@ -68,7 +65,7 @@ header nav nav {
 }
 
 header nav nav a {
-  padding: 30%;
+  padding: 0.2vw;
 }
 
 .fa-brands {
@@ -80,11 +77,12 @@ header nav nav a {
 }
 
 header hr {
-  width: 90%;
-  margin-left: 5%;
-  margin-bottom: 0%;
-  padding-bottom: 0%;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
+
 
 /*Footer*/
 
@@ -92,14 +90,12 @@ footer {
   color: var(--text-hover-color);
   text-align: right;
   font-size: x-small;
-  width: 100%;
+  width: 99vw;
   padding: 0%;
   margin: 0%;
   margin-top: auto;
-}
+  display: flex;
+  flex-direction:row;
+  justify-content:end
 
-footer p {
-  padding: 0%;
-  margin: 0%;
-  margin-right: 0.4%;
 }
