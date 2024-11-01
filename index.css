@@ -1,0 +1,99 @@
+/*MAIN*/
+
+/*Welcome section*/
+
+.welcomeSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position:relative;
+    bottom: 8vh;
+
+    height: 40vh;
+
+    background-color:var(--background-color);
+}
+
+.welcomeSection h2{
+    margin: 0;
+
+    color: var(--text-color);
+    font-size: 9vw;
+    font-weight: light;
+    letter-spacing: 0.5vw;
+    
+}
+
+.welcomeSection p{
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+    color: var(--text-color);
+    font-size: min( 2vw, 12px);
+    font-weight: lighter;
+    letter-spacing: 0.1vw;
+   
+}
+
+/*Preview section*/
+
+.previewOfPages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 25vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    
+    background-color: var(--background-color);
+}
+
+.previewOfPages a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+    width: 20vw;
+
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+    font-weight: lighter;
+    letter-spacing: 0.3vw;
+    background-color:var(--accent-color);  
+}
+.previewOfPages a:hover{
+    color: var(--text-color);
+    text-shadow: 0px 0px 3px var(--text-color);
+}
+
+
+    /*About*/
+
+.about:hover{
+    background-image: url(images/aboutPreview.png);
+    background-size: cover;
+}
+
+    /*Projects*/
+
+
+.projects:hover{
+    background-image: url(images/aboutPreview.png);
+    background-size: cover;
+}
+
+    /*Experience*/
+
+
+.experience:hover{
+    background-image: url(images/aboutPreview.png);
+    background-size: cover;
+}

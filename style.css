@@ -1,0 +1,151 @@
+:root{
+    --background-color: rgb(219, 216, 216);
+    --background-color-base: #f0f0f0;
+    --accent-color: #254625;
+    --text-color: #383838;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+
+    margin:0;
+
+    font-family: "Montserrat", sans-serif;
+
+    background-color: var(--background-color-base);
+}
+
+/*----------HEADER----------*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position:relative;
+    bottom:20vh;
+
+    background-color:rgba(219, 216, 216, 0.7);
+}
+
+.headerLogo{
+    width: 15vw;
+    height: auto;
+}
+
+header h1{
+    padding-left: 4vw;
+
+    font-size: min(5vw, 30px);
+    font-weight: lighter;
+    letter-spacing: 4vw;
+    color: var(--text-color);
+}
+
+.socialsNavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 15vw;
+}
+
+.socialsLink{
+    width: min(5vw, 30px);
+    height: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    opacity: 0.5;
+}
+
+.socialsLink:hover{
+    opacity:1;
+}
+
+
+/*----------MAIN----------*/
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 5vh;
+}
+
+/*Parallax*/
+
+.parallax {
+    background-image: url("images/background.jpg");
+
+    height: 30vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*----------FOOTER----------*/
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 20vh;
+    padding-bottom: 2vh;
+
+    background-color:var(--background-color);
+}
+
+.footerNavbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 70vw;
+    padding-top: 5vh;
+}
+
+.footerNavButton{
+    width: 13vw;
+    height: 5vh;
+
+    background-color: var(--background-color-base);
+
+    border-radius: 3px;
+    border:#c2c2c2 solid 1px;
+
+    color: var(--text-color);
+    font-size: min(3vw, 10px);
+    font-weight: lighter;
+    cursor: pointer;
+}  
+
+.footerNavButton:hover{
+    background-color: var(--accent-color);
+    color: white;
+}
+
+footer p{
+    color: var(--text-color);
+    font-style: italic;
+    letter-spacing: 0.5vw;
+    font-size: min(2vw, 15px);
+    font-weight: lighter;
+}
+
