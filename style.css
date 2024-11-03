@@ -2,7 +2,9 @@
     --background-color: rgb(219, 216, 216);
     --background-color-base: #f0f0f0;
     --accent-color: #254625;
+    --accent-color-light: rgb(138, 154, 91);
     --text-color: #383838;
+    --text-color-light: #e8dfdf;
 }
 
 body{

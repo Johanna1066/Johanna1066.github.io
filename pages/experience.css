@@ -1,6 +1,6 @@
 /*MAIN*/
 
-.welcomeSection{
+.experience{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -9,24 +9,65 @@
     position:relative;
     bottom: 8vh;
 
-    height: 40vh;
+    height:fit-content;
 
     background-color:var(--background-color);
 }
 
-.welcomeSection h2{
+.experience h2{
     margin: 0;
+    padding-top: 5vh;
 
     color: var(--text-color);
-    font-size: 9vw;
+    font-size: min(9vw,5em);
     font-weight: light;
     letter-spacing: 0.5vw;
     
 }
 
-.welcomeSection p{
-    padding-left: 10vw;
-    padding-right: 10vw;
+.experience nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+
+    width: 70vw;
+    margin-top: 5vh;
+}
+
+.experience button{
+    height: 8vh;
+    width: max(15vw, 10vh);
+    margin-right: 0.1vw;
+
+    border-radius: 1px;
+    border: none;
+
+}
+
+.active{
+    background-color: var(--accent-color);
+    box-shadow: 0px 0px 5px 2px var(--accent-color);
+
+    color: var(--text-color-light);
+    font-weight:bolder;
+}
+
+
+.experience section{
+    width: 70vw;
+    height: 40vh;
+
+    margin-bottom: 5vh;
+
+    background-color:var(--background-color-base);
+    border-radius: 2px;
+
+    box-shadow: 0px 0px 10px 1px var(--accent-color);
+}
+
+.experience p{
+    padding-right: 1vw;
+    padding-left: 1vw;
 
     color: var(--text-color);
     font-size: min( 2vw, 12px);

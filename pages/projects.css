@@ -29,25 +29,11 @@
 
 }
 
-.welcomeSection{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
-    position:relative;
-    bottom: 8vh;
-
-    height: 40vh;
-
-    background-color:var(--background-color);
-}
-
 h2{
     margin: 0;
 
     color: var(--text-color);
-    font-size: 6vw;
+    font-size: min(6vw, 40px);
     font-weight: lighter;
     letter-spacing: 0.5vw;
     writing-mode: vertical-lr;
@@ -66,47 +52,4 @@ article{
     margin-top: 5vh;
 
     background-color:var(--background-color);
-}
-
-.welcomeSection p{
-    padding-left: 10vw;
-    padding-right: 10vw;
-
-    color: var(--text-color);
-    font-size: min( 2vw, 12px);
-    font-weight: lighter;
-    letter-spacing: 0.1vw;
-   
-}
-
-.aboutMe{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items:left;
-
-    height: 40vh;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
-    
-
-    background-color:var(--background-color);
-}
-
-.aboutMe h2{
-    color: var(--text-color);
-    font-size: 8vw;
-    font-weight: light;
-    letter-spacing: 0.5vw;
-    margin: 0;
-    align-self: center;
-}
-
-.aboutMe p{
-    color: var(--text-color);
-    font-size: min( 2vw, 12px);
-    font-weight: lighter;
-    letter-spacing: 0.1vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
 }

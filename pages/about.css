@@ -18,7 +18,7 @@
     margin: 0;
 
     color: var(--text-color);
-    font-size: 9vw;
+    font-size: min(9vw,5em);
     font-weight: light;
     letter-spacing: 0.5vw;
     
@@ -42,8 +42,8 @@
     align-items:left;
 
     height: 40vh;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
+    margin-bottom: 8vh;
+    margin-top: 8vh;
     
 
     background-color:var(--background-color);
@@ -51,7 +51,7 @@
 
 .aboutMe h2{
     color: var(--text-color);
-    font-size: 8vw;
+    font-size: min(9vw,5em);
     font-weight: light;
     letter-spacing: 0.5vw;
     margin: 0;

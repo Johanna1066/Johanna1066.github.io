@@ -20,7 +20,7 @@
     margin: 0;
 
     color: var(--text-color);
-    font-size: 9vw;
+    font-size: min(9vw,5em);
     font-weight: light;
     letter-spacing: 0.5vw;
     
@@ -71,7 +71,7 @@
 }
 .previewOfPages a:hover{
     color: var(--text-color);
-    text-shadow: 0px 0px 3px var(--text-color);
+    text-shadow: 0px 0px 2px var(--text-color);
 }
 
 
@@ -79,21 +79,27 @@
 
 .about:hover{
     background-image: url(images/aboutPreview.png);
-    background-size: cover;
+    background-size:contain;
+    box-shadow: 0px 0px 20px 5px var(--accent-color);
+    font-size: 0;
 }
 
     /*Projects*/
 
 
 .projects:hover{
-    background-image: url(images/aboutPreview.png);
-    background-size: cover;
+    background-image: url(images/projectsPreview.png);
+    background-size:contain;
+    box-shadow: 0px 0px 20px 5px var(--accent-color);
+    font-size: 0;
 }
 
     /*Experience*/
 
 
 .experience:hover{
-    background-image: url(images/aboutPreview.png);
-    background-size: cover;
+    background-image: url(images/experiencePreview.png);
+    background-size: contain;
+    box-shadow: 0px 0px 20px 5px var(--accent-color);
+    font-size: 0;
 }
