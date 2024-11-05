@@ -5,6 +5,8 @@
     --accent-color-light: rgb(138, 154, 91);
     --text-color: #383838;
     --text-color-light: #e8dfdf;
+
+    --normal-text-size: min( 3vw, 14px);
 }
 
 body{
@@ -107,33 +109,38 @@ footer{
     align-items: center;
     
     height: 20vh;
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
 
     background-color:var(--background-color);
 }
 
-.footerNavbar
-{
+.footerNavbar{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 
-    width: 70vw;
+    width: fit-content;
     padding-top: 5vh;
+    padding-bottom: 1vh;
 }
 
 .footerNavButton{
-    width: 13vw;
+    width: 15vw;
     height: 5vh;
+    padding: 0;
+
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 
     background-color: var(--background-color-base);
 
     border-radius: 3px;
     border:#c2c2c2 solid 1px;
+    text-align: center;
 
     color: var(--text-color);
-    font-size: min(2vw, 12px);
+    font-size: var(--normal-text-size);
     font-weight: lighter;
     cursor: pointer;
 }  
@@ -149,5 +156,6 @@ footer p{
     letter-spacing: 0.5vw;
     font-size: min(2vw, 15px);
     font-weight: lighter;
+    padding-bottom: 1vh;
 }
 

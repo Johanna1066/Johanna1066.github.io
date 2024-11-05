@@ -37,7 +37,7 @@
 .experience button{
     height: 8vh;
     width: max(15vw, 10vh);
-    margin-right: 0.1vw;
+    margin-right: 0.5vw;
 
     border-radius: 1px;
     border: none;
@@ -70,7 +70,7 @@
     padding-left: 1vw;
 
     color: var(--text-color);
-    font-size: min( 2vw, 12px);
+    font-size: min( 3vw, 14px);
     font-weight: lighter;
     letter-spacing: 0.1vw;
    
